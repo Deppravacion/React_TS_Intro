@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+  /* 5 color palette */
+  --main-bg-color: #3D5A80;
+  --font-color-light: #E0FBFC;
+  --font-color-dark: #293241;
+  --accent-light: #98C1D9;
+  --accent-dark: #293241;
+  --call-to-action: #EE6C4D;
+}
+
+
+
+.App { 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  font-family: "Raleway", sans-serif;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 32px;
+  margin: 15px 0;
+  color: var(--font-color-light);
+  z-index: 1;
+  text-align: center;
+}
+
+
+@media (min-width: 800px) {
+  .heading {
+    margin: 30px;
+    font-size: 40px;
+  }
+}
