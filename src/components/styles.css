@@ -73,6 +73,7 @@
   padding: 5px;
   border: none;
   font-size: 20px;
+  overflow-wrap: break-word;
 }
 
 .todos__single--text:focus {
@@ -85,7 +86,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .input, .todos {
     width: 90%;
   }
@@ -95,12 +96,12 @@
   }
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .todos__single {
     width: 40%;
     
   }
-}
+} */
 
 @media (min-width: 1800px) {
   .todos__single {
